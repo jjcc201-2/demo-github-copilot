@@ -4,35 +4,36 @@ Welcome to the **GitHub Copilot Lab**! This project is designed to help users be
 
 This readme file is itself an excellent example of how using GitHub Copilot can help generate documentation, code snippets, and explanations. As you work through the examples in this repository, you will see how Copilot can assist you.
 
-## Purpose
-The main goal of this hands-on lab is to:
-- Demonstrate how GitHub Copilot can assist with code completion, documentation, and problem-solving.
-- Provide examples and exercises to help users understand Copilot's strengths and limitations.
-- Offer a safe space to practice using Copilot in real-world coding scenarios.
+## Table of Contents
+- [Purpose](#purpose)
+- [Pre-Requisites](#pre-requisites)
+- [Audience](#audience)
+- [Using GitHub Copilot](#using-github-copilot)
+  - [Choosing a License](#choosing-a-license)
+  - [Setting Up GitHub Copilot](#setting-up-github-copilot)
+- [Getting Started](#getting-started)
+  - [1. GitHub Codespaces (Recommended)](#1-github-codespaces-recommended)
+  - [2. Use a Dev Container](#2-use-a-dev-container)
+  - [3. Clone Locally](#3-clone-locally)
+- [Additional Resources](#additional-resources)
+---
 
-<br>
-
-### Pre-Requisites
+## Pre-Requisites
 This demo repo will assume that you have the following pre-requisites in place:
 
 - **GitHub Account**: You will need a GitHub account to access Copilot and this repository.
 - **GitHub Copilot Access**: Ensure you have access to GitHub Copilot. See section "Using GitHub Copilot" below for details on how to set this up.
 - **Development Environment**: You can use any IDE that supports GitHub Copilot, such as Visual Studio Code, JetBrains IDEs, or others. 
+--- 
 
-### Audience 
-
+## Audience 
 This lab will assume the following:
 - You are familiar with the basics of using an IDE (Integrated Development Environment) like Visual Studio Code or JetBrains
 - You have at least a basic understanding of using the terminal or command line interface
 - You have at least a basic understanding of Python programming, as the examples will be in Python.
-
-
-<br>
-
+---
 
 ## Using GitHub Copilot
-
-<br>
 
 ### Choosing a License
 I recommend using a **personal GitHub Copilot license** to run this demo. Your most cost-effictive options include:
@@ -47,8 +48,7 @@ I recommend using a **personal GitHub Copilot license** to run this demo. Your m
   - Access to the latest models (GPT-4, Claude 3, etc.)
 
 For those who are not sure what all this mean yet, don't worry! For the purposes of this demo, the **free version** will be sufficient so my suggestion will be to get started with that. 
-
-<br>
+---
 
 ### Setting Up GitHub Copilot
 There are multiple options for setting up list lab below under "Getting Started". No matter what option you choose, you will need to perform the following:
@@ -62,31 +62,28 @@ There are multiple options for setting up list lab below under "Getting Started"
    - If using Visual Studio Code, open the Command Palette (`Ctrl+Shift+P`), then type and select `GitHub: Sign in`.
    - This will authenticate your GitHub account and link it to the Copilot extension.
    - For other IDEs, please follow their documentation for signing in to GitHub.
-
-<br>
+---
 
 ## Getting Started
 You can start using this repository in several ways:
 
 
-### 1. GitHub Codespaces (Recommended)
-1. If you have access to [GitHub Codespaces](https://github.com/features/codespaces), you can launch this repository directly in the cloud. 
+### Option 1. GitHub Codespaces (Recommended)
+If you have access to [GitHub Codespaces](https://github.com/features/codespaces), you can launch this repository directly in the cloud. 
 
 This is recommended as it will provision a pre-configured environment with all necessary tools and extensions that is isolated from your local machine:
    - Click the **Code** button on the repository page and select **Open with Codespaces**.
    - This provides a ready-to-use development environment in your browser.
    - Most personal (free) accounts get around 60 hours of free Codespaces usage per month, which is sufficient for this demo.
+---
 
-<br>
-
-### 2. Use a Dev Container
-1. If you have [Docker](https://www.docker.com/) and the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) installed, open the repository in a dev container:
+### Option 2. Use a Dev Container
+If you have [Docker](https://www.docker.com/) and the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) installed, open the repository in a dev container:
    - Open the Command Palette (`Ctrl+Shift+P`), then select `Dev Containers: Open Folder in Container...`.
    - This will set up a reproducible development environment.
+   ---
 
-<br>
-
-### 3. Clone Locally
+### Option 3. Clone Locally
 1. Clone the repository to your local machine:
    ```bash
    git clone <repository-url>
@@ -94,9 +91,7 @@ This is recommended as it will provision a pre-configured environment with all n
    ```
 2. Open the folder in [Visual Studio Code](https://code.visualstudio.com/).
 3. Make sure you have the [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) installed, as well as a recent version of Python 3.
-
-
-<br>
+---
 
 ## Additional Resources
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
